@@ -36,3 +36,25 @@ wget -i ../2_packages_xfce4_-clipman-plugin.txt
 
 
 
+### 3. sudo apt install xfce4-systemload-plugin
+
+```
+sudo apt-get install --print-uris --yes xfce4-systemload-plugin | grep ^\' | cut -d\' -f2 > 3_packages_xfce4-systemload-plugin.txt
+
+mkdir 3_dependencies_xfce4-systemload-plugin
+
+cd 3_dependencies_xfce4-systemload-plugin
+
+wget -i ../3_packages_xfce4-systemload-plugin.txt
+```
+
+
+
+
+
+
+
+
+
+
+
