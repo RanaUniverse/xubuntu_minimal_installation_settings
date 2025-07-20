@@ -62,6 +62,20 @@ wget -i ../4_packages_xfce4-eyes-plugin.txt
 ```
 
 
+<!-- Below will use to wifi will work from now. -->
+### sudo apt install linux-headers-$(uname -r) build-essential bcmwl-kernel-source
+
+```
+sudo apt-get install --print-uris --yes linux-headers-$(uname -r) build-essential bcmwl-kernel-source | grep ^\' | cut -d\' -f2 > 5_packages_wifi.txt
+
+mkdir 5_dependencies_wifi
+
+cd 5_dependencies_wifi
+
+wget -i ../5_packages_wifi.txt
+```
+
+
 
 
 
