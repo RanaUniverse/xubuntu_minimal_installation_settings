@@ -38,6 +38,12 @@ echo "👀 Installing Eyes Plugin (eyes follow your cursor on the panel)..."
 sudo dpkg -i ./4_dependencies_xfce4-eyes-plugin/*.deb
 
 
+echo "📶 Installing Wi-Fi Support (kernel headers, build tools, Broadcom driver)..."
+sudo dpkg -i ./5_dependencies_wifi/*.deb
+
+
+
+
 
 echo "✅ All selected XFCE panel plugins installed successfully!"
 
