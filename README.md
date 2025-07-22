@@ -84,7 +84,7 @@ The Below things is still in mind, this has not made this completely.
 ### sudo apt install blueman bluez pulseaudio-module-bluetooth
 
 ```
-sudo apt-get install --print-uris --yes blueman bluez pulseaudio-module-bluetooth | grep ^\' | cut -d\' -f2 > 6_packages_bluetooth.txt
+sudo apt-get install --print-uris --yes blueman pipewire-audio | grep ^\' | cut -d\' -f2 > 6_packages_bluetooth.txt
 
 mkdir 6_dependencies_bluetooth
 
@@ -93,13 +93,22 @@ cd 6_dependencies_bluetooth
 wget -i ../6_packages_bluetooth.txt
 ```
 Below is when upper is not working that's why i need to check this...
+
 ```
-sudo apt install pipewire-audio pipewire-pulse wireplumber
+### only below bluman works with 83 packages, other 2 has been installed.
+sudo apt install blueman 
+sudo apt install bluez
+sudo apt install pulseaudio-module-bluetooth
+
+### pipewire-audio solved all my issue of connection with phone & headphone.
+sudo apt install pipewire-audio 
+
+### Below i didn't check till now as upper is working.
+sudo apt install pipewire-pulse
+
+### this has already been installed
+sudo apt install wireplumber
 ```
-
-
-
-
 
 
 
