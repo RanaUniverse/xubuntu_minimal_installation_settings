@@ -78,6 +78,25 @@ wget -i ../5_packages_wifi.txt
 ```
 
 
+The Below things is still in mind, this has not made this completely.
+
+<!-- Bluetooth will work now on this laptop on this os -->
+### sudo apt install blueman bluez pulseaudio-module-bluetooth
+
+```
+sudo apt-get install --print-uris --yes blueman bluez pulseaudio-module-bluetooth | grep ^\' | cut -d\' -f2 > 6_packages_bluetooth.txt
+
+mkdir 6_dependencies_bluetooth
+
+cd 6_dependencies_bluetooth
+
+wget -i ../6_packages_bluetooth.txt
+```
+Below is when upper is not working that's why i need to check this...
+```
+sudo apt install pipewire-audio pipewire-pulse wireplumber
+```
+
 
 
 
