@@ -7,7 +7,9 @@ I will try to achieve the settings i will use so that i can get my own custom os
 
 # The Steps i am following...
 
-`sudo dpkg -i *.deb`
+```
+sudo dpkg -i *.deb
+```
 
 ## 1. sudo apt install thunar-archive-plugin
 
