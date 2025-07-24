@@ -78,10 +78,9 @@ wget -i ../5_packages_wifi.txt
 ```
 
 
-The Below things is still in mind, this has not made this completely.
 
 <!-- Bluetooth will work now on this laptop on this os -->
-### sudo apt install blueman bluez pulseaudio-module-bluetooth
+### sudo apt install blueman pipewire-audio 
 
 ```
 sudo apt-get install --print-uris --yes blueman pipewire-audio | grep ^\' | cut -d\' -f2 > 6_packages_bluetooth.txt
@@ -92,23 +91,27 @@ cd 6_dependencies_bluetooth
 
 wget -i ../6_packages_bluetooth.txt
 ```
-Below is when upper is not working that's why i need to check this...
+
+Below is the reasons and some information about the bluetooth settings...
 
 ```
-### only below bluman works with 83 packages, other 2 has been installed.
-sudo apt install blueman 
-sudo apt install bluez
-sudo apt install pulseaudio-module-bluetooth
+✅🔧 **Working setup:**
+sudo apt install blueman
 
-### pipewire-audio solved all my issue of connection with phone & headphone.
+🎯🎧 **Solved connection issues (phone & headphone):**
 sudo apt install pipewire-audio 
 
-### Below i didn't check till now as upper is working.
+❓🤔 **Not tested (might not be needed, maybe for future):**
 sudo apt install pipewire-pulse
 
-### this has already been installed
+✅📦 **Already installed:**
+sudo apt install bluez
 sudo apt install wireplumber
+
+📦🚫 **Included in Blueman (no need to install separately):**
+sudo apt install pulseaudio-module-bluetooth
 ```
+
 
 
 
