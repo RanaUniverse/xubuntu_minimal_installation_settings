@@ -132,11 +132,14 @@ cd 7_dependencies_pipewire-audio
 wget -i ../7_packages_pipewire-audio.txt
 ```
 
+
 Below will do after upper is done.
 ```
 The following packages will be REMOVED:
-  pulseaudio
-sudo apt remove pulseaudio
+  pulseaudio pulseaudio-module-bluetooth
+  
+sudo apt remove pulseaudio pulseaudio-module-bluetooth
+
 ```
 
 
