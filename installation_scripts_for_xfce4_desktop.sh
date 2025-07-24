@@ -47,7 +47,7 @@ sudo dpkg -i ./6_dependencies_bluetooth-blueman/*.deb
 
 echo "Befor install the another bluetooth related package i need to remove some packages which must need so that it will not be any problem."
 
-sudo apt remove pulseaudio pulseaudio-module-bluetooth
+sudo apt remove -y pulseaudio pulseaudio-module-bluetooth
 
 
 echo "🔊 Installing PipeWire Audio Support (PipeWire and PulseAudio replacement)..."
