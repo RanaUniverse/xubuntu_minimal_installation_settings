@@ -79,19 +79,9 @@ wget -i ../5_packages_wifi.txt
 
 
 
-<!-- Bluetooth will work now on this laptop on this os -->
-### sudo apt install blueman pipewire-audio 
 
-```
-sudo apt-get install --print-uris --yes blueman pipewire-audio | grep ^\' | cut -d\' -f2 > 6_packages_bluetooth.txt
 
-mkdir 6_dependencies_bluetooth
-
-cd 6_dependencies_bluetooth
-
-wget -i ../6_packages_bluetooth.txt
-```
-
+### For Bluetooth Connections i need to follow the below things.
 Below is the reasons and some information about the bluetooth settings...
 
 ```
@@ -111,6 +101,49 @@ sudo apt install wireplumber
 📦🚫 **Included in Blueman (no need to install separately):**
 sudo apt install pulseaudio-module-bluetooth
 ```
+
+
+
+
+### sudo apt install blueman 
+
+```
+sudo apt-get install --print-uris --yes blueman  | grep ^\' | cut -d\' -f2 > 6_packages_bluetooth.txt
+
+mkdir 6_dependencies_bluetooth-blueman
+
+cd 6_dependencies_bluetooth-blueman
+
+wget -i ../6_packages_bluetooth-blueman.txt
+```
+
+
+
+
+### sudo apt install pipewire-audio 
+
+```
+sudo apt-get install --print-uris --yes pipewire-audio | grep ^\' | cut -d\' -f2 > 7_packages_pipewire-audio.txt
+
+mkdir 7_dependencies_pipewire-audio
+
+cd 7_dependencies_pipewire-audio
+
+wget -i ../7_packages_pipewire-audio.txt
+```
+
+Below will do after upper is done.
+```
+The following packages will be REMOVED:
+  pulseaudio
+sudo apt remove pulseaudio
+```
+
+
+
+
+
+
 
 
 
