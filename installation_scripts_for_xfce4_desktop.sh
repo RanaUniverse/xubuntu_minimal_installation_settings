@@ -42,7 +42,14 @@ echo "📶 Installing Wi-Fi Support (kernel headers, build tools, Broadcom drive
 sudo dpkg -i ./5_dependencies_wifi/*.deb
 
 
+echo "🔵 Installing Bluetooth Support (Blueman and related tools)..."
+sudo dpkg -i ./6_dependencies_bluetooth-blueman/*.deb
 
+echo "🔊 Installing PipeWire Audio Support (PipeWire and PulseAudio replacement)..."
+sudo dpkg -i ./7_dependencies_pipewire-audio/*.deb
+
+# i need to do something with 
+# sudo apt remove pulseaudio pulseaudio-module-bluetooth
 
 
 echo "✅ All selected XFCE panel plugins installed successfully!"
