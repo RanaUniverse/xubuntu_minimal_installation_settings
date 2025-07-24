@@ -54,6 +54,12 @@ echo "🔊 Installing PipeWire Audio Support (PipeWire and PulseAudio replacemen
 sudo dpkg -i ./7_dependencies_pipewire-audio/*.deb
 
 
+echo "Docklike in Panel Plugin for the item will install."
+sudo dpkg -i files_and_folders/some_packages/xfce4-docklike-plugin_*.deb 
+
+
+
+
 echo "✅ All selected XFCE panel plugins installed successfully!"
 
 

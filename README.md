@@ -144,12 +144,36 @@ sudo apt remove pulseaudio pulseaudio-module-bluetooth
 
 
 
+### 4. sudo apt install xfce4-eyes-plugin
+
+```
+sudo apt-get install --print-uris --yes xfce4-eyes-plugin | grep ^\' | cut -d\' -f2 > 4_packages_xfce4-eyes-plugin.txt
+
+mkdir 4_dependencies_xfce4-eyes-plugin
+
+cd 4_dependencies_xfce4-eyes-plugin
+
+wget -i ../4_packages_xfce4-eyes-plugin.txt
+```
 
 
 
+How to install the Docklike Apps in the panel will work how?
 
 
+```
+sudo add-apt-repository ppa:xubuntu-dev/extras
+sudo apt update
+sudo apt install xfce4-docklike-plugin
+```
 
+The Download link for this i have. 
+Direct Download Link of [Docklike Panel Plugin](https://ppa.launchpadcontent.net/xubuntu-dev/extras/ubuntu/pool/main/x/xfce4-docklike-plugin/xfce4-docklike-plugin_0.4.2-0ppa1~bpo24.04_amd64.deb
+)
 
+[The Offline File is This.](./files_and_folders/some_packages/xfce4-docklike-plugin_0.4.2-0ppa1~bpo24.04_amd64.deb)
 
+```
+sudo dpkg -i files_and_folders/some_packages/xfce4-docklike-plugin_0.4.2-0ppa1~bpo24.04_amd64.deb 
+```
 
