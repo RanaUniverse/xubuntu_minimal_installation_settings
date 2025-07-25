@@ -205,6 +205,42 @@ echo "The Redshift has been installed Successfully."
 
 
 
+### 10. Bucklespring Build From Source
+
+```
+I need to download [zip of bucklespring](https://github.com/zevv/bucklespring)...
+The Steps are written in this repo, below is just for my offline installation.`
+
+sudo apt-get install --print-uris --yes libopenal-dev libalure-dev libxtst-dev pkg-config | grep ^\' | cut -d\' -f2 > 10_packages_bucklespring_build_from_source.txt
+
+mkdir 10_dependencies_bucklespring_build_from_source
+cd 10_dependencies_bucklespring_build_from_source/
+
+wget -i ../10_packages_bucklespring_build_from_source.txt
+
+```
+Upper is the dependencies it need to make the installation of this available.
+After this i will install all those so that i can make buckle from source.
+
+This has been written in the installation_script.sh file.
+And then i need ot use the alias shortcuts names.
+
+```
+./files_and_folders/terminal_alias_for_bucklespring.sh
+```
+
+
+
+
+### Information of What To Do:
+
+Now i will install those dependencies and then use `installation_script.sh` and then i will use terminal alias.
+
+
+
+
+
+
 
 
 
