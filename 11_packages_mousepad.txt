@@ -1,0 +1,6 @@
+http://archive.ubuntu.com/ubuntu/pool/main/g/gspell/libgspell-1-common_1.12.2-1build4_all.deb
+http://archive.ubuntu.com/ubuntu/pool/main/g/gspell/libgspell-1-2_1.12.2-1build4_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/g/gtksourceview4/libgtksourceview-4-common_4.8.4-5build4_all.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/g/gtksourceview4/libgtksourceview-4-0_4.8.4-5build4_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/m/mousepad/libmousepad0_0.6.1-1build2_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/m/mousepad/mousepad_0.6.1-1build2_amd64.deb

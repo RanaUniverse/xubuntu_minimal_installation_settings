@@ -114,11 +114,20 @@ cd "$CURRENT_DIR"
 
 
 
+echo "The Mousepad minimal Text Editor app is installing."
+sudo dpkg -i 11_dependencies_mousepad/*.deb
+
+
+
 
 
 
 
 echo "✅ All selected XFCE panel plugins installed successfully!"
+
+
+
+
 
 
 

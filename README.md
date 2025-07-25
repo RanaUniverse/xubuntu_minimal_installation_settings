@@ -232,6 +232,23 @@ And then i need ot use the alias shortcuts names.
 
 
 
+
+### 11. sudo apt install mousepad
+```
+sudo apt-get install --print-uris --yes mousepad | grep ^\' | cut -d\' -f2 > 11_packages_mousepad.txt
+
+mkdir 11_dependencies_mousepad
+
+cd 11_dependencies_mousepad
+
+wget -i ../11_packages_mousepad.txt
+```
+
+
+
+
+
+
 ### Information of What To Do:
 
 Now i will install those dependencies and then use `installation_script.sh` and then i will use terminal alias.
