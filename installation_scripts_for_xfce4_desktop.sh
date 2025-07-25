@@ -54,8 +54,27 @@ echo "🔊 Installing PipeWire Audio Support (PipeWire and PulseAudio replacemen
 sudo dpkg -i ./7_dependencies_pipewire-audio/*.deb
 
 
-echo "Docklike in Panel Plugin for the item will install."
+
+echo "🧩 Installing Docklike Panel Plugin (XFCE Docklike Taskbar)..."
 sudo dpkg -i 8_dependencies_xfce4-docklike-plugin/xfce4-docklike-plugin_*.deb 
+
+
+
+echo "🌙 Installing Redshift for Night Light functionality..."
+sudo dpkg -i 9_dependencies_redshift/*.deb
+
+echo "📌 Adding terminal shortcuts to start & stop Redshift..."
+./files_and_folders/terminal_alias_for_redshift.sh 
+
+echo "✅ Redshift has been installed successfully!"
+
+
+
+
+
+
+
+
 
 
 

@@ -144,8 +144,9 @@ sudo apt remove pulseaudio pulseaudio-module-bluetooth
 
 
 
-### 8. xfce4 Docklike Panel (Different Ways To install)
 
+
+### 8. xfce4 Docklike Panel (Different Ways To install)
 
 ```
 sudo add-apt-repository ppa:xubuntu-dev/extras
@@ -162,3 +163,54 @@ Direct Download Link of [Docklike Panel Plugin](https://ppa.launchpadcontent.net
 ```
 sudo dpkg -i 8_dependencies_xfce4-docklike-plugin/xfce4-docklike-plugin_*.deb 
 ```
+
+
+
+
+
+
+
+### 9. Redshift For Night Like red color
+`sudo apt install redshift redshift-gtk`
+
+```
+sudo apt-get install --print-uris --yes redshift redshift-gtk | grep ^\' | cut -d\' -f2 > 9_packages_redshift.txt
+
+mkdir 9_dependencies_redshift
+
+cd 9_dependencies_redshift
+
+wget -i ../9_packages_redshift.txt
+```
+
+Now i need to install this, and then use the terminal shortcut,
+
+```
+echo "The redshift will install in this machine to control the night light."
+
+sudo dpkg -i 9_dependencies_redshift/*.deb
+
+echo "Terminal Shortcut to start & stop the redshift has been added."
+
+./files_and_folders/terminal_alias_for_redshift.sh 
+
+echo "The Redshift has been installed Successfully."
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

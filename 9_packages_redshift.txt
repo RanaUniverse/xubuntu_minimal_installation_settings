@@ -1,0 +1,6 @@
+http://archive.ubuntu.com/ubuntu/pool/main/g/geoclue-2.0/geoclue-2.0_2.7.0-3ubuntu7_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/main/liba/libayatana-appindicator/gir1.2-ayatanaappindicator3-0.1_0.5.93-1build3_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/main/i/iio-sensor-proxy/iio-sensor-proxy_3.5-1build2_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/main/p/pyxdg/python3-xdg_0.28-2_all.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/r/redshift/redshift_1.12-4.2ubuntu4_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/r/redshift/redshift-gtk_1.12-4.2ubuntu4_all.deb
