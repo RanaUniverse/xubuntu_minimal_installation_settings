@@ -206,7 +206,7 @@ echo "The Redshift has been installed Successfully."
 
 
 ### 10. Bucklespring Build From Source
-
+I keep the bucklespring zip file from the link below and the date is last commit date.
 ```
 I need to download [zip of bucklespring](https://github.com/zevv/bucklespring)...
 The Steps are written in this repo, below is just for my offline installation.`
