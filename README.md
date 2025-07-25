@@ -11,7 +11,7 @@ I will try to achieve the settings i will use so that i can get my own custom os
 sudo dpkg -i *.deb
 ```
 
-## 1. sudo apt install thunar-archive-plugin
+### 1. sudo apt install thunar-archive-plugin
 
 ```
 sudo apt-get install --print-uris --yes thunar-archive-plugin | grep ^\' | cut -d\' -f2 > 1_packages_thunar-archive-plugin.txt
@@ -24,7 +24,7 @@ wget -i ../1_packages_thunar-archive-plugin.txt
 ```
 
 
-## 2. sudo apt install xfce4-clipman-plugin
+### 2. sudo apt install xfce4-clipman-plugin
 
 ```
 sudo apt-get install --print-uris --yes xfce4-clipman-plugin | grep ^\' | cut -d\' -f2 > 2_packages_xfce4_-clipman-plugin.txt
@@ -65,7 +65,7 @@ wget -i ../4_packages_xfce4-eyes-plugin.txt
 
 
 <!-- Below will use to wifi will work from now. -->
-### sudo apt install linux-headers-$(uname -r) build-essential bcmwl-kernel-source
+### 5. sudo apt install linux-headers-$(uname -r) build-essential bcmwl-kernel-source
 
 ```
 sudo apt-get install --print-uris --yes linux-headers-$(uname -r) build-essential bcmwl-kernel-source | grep ^\' | cut -d\' -f2 > 5_packages_wifi.txt
@@ -81,7 +81,7 @@ wget -i ../5_packages_wifi.txt
 
 
 
-### For Bluetooth Connections i need to follow the below things.
+### 6 & 7: For Bluetooth Connections i need to follow the below things.
 Below is the reasons and some information about the bluetooth settings...
 
 ```
@@ -105,7 +105,7 @@ sudo apt install pulseaudio-module-bluetooth
 
 
 
-### sudo apt install blueman 
+### 6. sudo apt install blueman 
 
 ```
 sudo apt-get install --print-uris --yes blueman  | grep ^\' | cut -d\' -f2 > 6_packages_bluetooth.txt
@@ -120,7 +120,7 @@ wget -i ../6_packages_bluetooth-blueman.txt
 
 
 
-### sudo apt install pipewire-audio 
+### 7. sudo apt install pipewire-audio 
 
 ```
 sudo apt-get install --print-uris --yes pipewire-audio | grep ^\' | cut -d\' -f2 > 7_packages_pipewire-audio.txt
@@ -144,21 +144,7 @@ sudo apt remove pulseaudio pulseaudio-module-bluetooth
 
 
 
-### 4. sudo apt install xfce4-eyes-plugin
-
-```
-sudo apt-get install --print-uris --yes xfce4-eyes-plugin | grep ^\' | cut -d\' -f2 > 4_packages_xfce4-eyes-plugin.txt
-
-mkdir 4_dependencies_xfce4-eyes-plugin
-
-cd 4_dependencies_xfce4-eyes-plugin
-
-wget -i ../4_packages_xfce4-eyes-plugin.txt
-```
-
-
-
-How to install the Docklike Apps in the panel will work how?
+### 8. xfce4 Docklike Panel (Different Ways To install)
 
 
 ```
@@ -171,9 +157,8 @@ The Download link for this i have.
 Direct Download Link of [Docklike Panel Plugin](https://ppa.launchpadcontent.net/xubuntu-dev/extras/ubuntu/pool/main/x/xfce4-docklike-plugin/xfce4-docklike-plugin_0.4.2-0ppa1~bpo24.04_amd64.deb
 )
 
-[The Offline File is This.](./files_and_folders/some_packages/xfce4-docklike-plugin_0.4.2-0ppa1~bpo24.04_amd64.deb)
+[The Offline File is This.](./8_dependencies_xfce4-docklike-plugin/xfce4-docklike-plugin_0.4.2-0ppa1~bpo24.04_amd64.deb)
 
 ```
-sudo dpkg -i files_and_folders/some_packages/xfce4-docklike-plugin_0.4.2-0ppa1~bpo24.04_amd64.deb 
+sudo dpkg -i 8_dependencies_xfce4-docklike-plugin/xfce4-docklike-plugin_*.deb 
 ```
-

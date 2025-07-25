@@ -55,7 +55,7 @@ sudo dpkg -i ./7_dependencies_pipewire-audio/*.deb
 
 
 echo "Docklike in Panel Plugin for the item will install."
-sudo dpkg -i files_and_folders/some_packages/xfce4-docklike-plugin_*.deb 
+sudo dpkg -i 8_dependencies_xfce4-docklike-plugin/xfce4-docklike-plugin_*.deb 
 
 
 
