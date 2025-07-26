@@ -18,7 +18,7 @@ mkdir -pv ~/Pictures/screenshots
 echo "Images & Necessary Files has been Created Successfully. 🖼️"
 
 
-
+./terminal_alias_for_me.sh
 
 
 echo "🔧 Installing Thunar Archive Plugin (adds archive options to file manager)..."
