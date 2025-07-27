@@ -62,6 +62,10 @@ sudo dpkg -i 8_dependencies_xfce4-docklike-plugin/xfce4-docklike-plugin_*.deb
 
 
 
+
+
+
+
 echo "🌙 Installing Redshift for Night Light functionality..."
 sudo dpkg -i 9_dependencies_redshift/*.deb
 
@@ -69,6 +73,7 @@ echo "📌 Adding terminal shortcuts to start & stop Redshift..."
 ./files_and_folders/terminal_alias_for_redshift.sh 
 
 echo "✅ Redshift has been installed successfully!"
+
 
 
 
@@ -114,8 +119,23 @@ cd "$CURRENT_DIR"
 
 
 
-echo "The Mousepad minimal Text Editor app is installing."
+
+
+echo "📝 Installing Mousepad- the minimal text editor..."
 sudo dpkg -i 11_dependencies_mousepad/*.deb
+
+
+
+
+
+echo "🖼️ Installing Mugshot (About Me) to set profile images for lock screen, LibreOffice, and more..."
+sudo dpkg -i 12_dependencies_mugshot/*.deb
+
+
+
+
+
+
 
 
 
@@ -124,6 +144,9 @@ sudo dpkg -i 11_dependencies_mousepad/*.deb
 
 
 echo "✅ All selected XFCE panel plugins installed successfully!"
+
+
+
 
 
 

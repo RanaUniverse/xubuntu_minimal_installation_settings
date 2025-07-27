@@ -248,6 +248,21 @@ wget -i ../11_packages_mousepad.txt
 
 
 
+### 12. sudo apt install mugshot
+
+```
+sudo apt-get install --print-uris --yes mugshot | grep ^\' | cut -d\' -f2 > 12_packages_mugshot.txt
+
+mkdir 12_dependencies_mugshot
+
+cd 12_dependencies_mugshot
+
+wget -i ../12_packages_mugshot.txt
+```
+
+
+
+
 
 ### Information of What To Do:
 
