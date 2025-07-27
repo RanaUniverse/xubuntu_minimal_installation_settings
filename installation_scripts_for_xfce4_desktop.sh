@@ -9,6 +9,11 @@ mkdir -pv ~/RanaUniverse
 mkdir -pv ~/workspaces  
 
 
+echo "My manual scripts i will need to add some keyboard shortcuts, i will keep those."
+cp -rv ./00_important_files/scripts_for_shortcuts/ ~/.apps_and_softwares/
+
+
+
 
 cp -v 00_important_files/inside_pictures/*.png ~/Pictures
 cp -v 00_important_files/inside_RanaUniverse/main.py ~/RanaUniverse/
