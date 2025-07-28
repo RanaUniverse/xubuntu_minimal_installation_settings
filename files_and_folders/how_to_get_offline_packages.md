@@ -258,3 +258,34 @@ cd 12_dependencies_mugshot
 
 wget -i ../12_packages_mugshot.txt
 ```
+
+
+
+
+
+### 13. sudo apt install eog
+```
+sudo apt-get install --print-uris --yes eog | grep ^\' | cut -d\' -f2 > 13_packages_eog.txt
+
+mkdir 13_dependencies_eog
+
+cd 13_dependencies_eog
+
+wget -i ../13_packages_eog.txt
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
