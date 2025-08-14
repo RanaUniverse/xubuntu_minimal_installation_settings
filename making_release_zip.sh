@@ -2,7 +2,7 @@
 # The Xubuntu Minimal Os need some basic apps which i pack here and want to publish as a zip so that i can use this zip easily to transfer to offline laptop and use it easily effictively. So i Think to make this whole as a zip and share.
 
 
-My_VERSION="v1.1.0"
+My_VERSION="v1.0.0"
 
 
 # Get repo name from current directory
