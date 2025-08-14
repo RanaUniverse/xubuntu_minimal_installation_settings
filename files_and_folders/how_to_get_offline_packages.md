@@ -181,8 +181,7 @@ cd 9_dependencies_redshift
 
 wget -i ../9_packages_redshift.txt
 ```
-
-Now i need to install this, and then use the terminal shortcut,
+To use Redshift i need to use my custom good way to use this so i should make some terminal shortctus. Now i need to install this, and then use the terminal shortcut as mentioned below:
 
 ```
 echo "The redshift will install in this machine to control the night light."
