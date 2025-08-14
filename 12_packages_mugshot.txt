@@ -17,4 +17,5 @@ http://archive.ubuntu.com/ubuntu/pool/universe/c/clutter-gtk/gir1.2-gtkclutter-1
 http://archive.ubuntu.com/ubuntu/pool/main/g/gstreamer1.0/gstreamer1.0-tools_1.24.2-1ubuntu0.1_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/c/clutter-1.0/libclutter-1.0-common_1.26.4%2bgit2779b932%2bdfsg-7build3_all.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/c/cogl/libcogl-common_1.22.8-4ubuntu4_all.deb
+http://archive.ubuntu.com/ubuntu/pool/main/p/pycairo/python3-cairo_1.25.1-2build2_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/m/mugshot/mugshot_0.4.3-1_all.deb
