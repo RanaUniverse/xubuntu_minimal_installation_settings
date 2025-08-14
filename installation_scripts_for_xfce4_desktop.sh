@@ -139,29 +139,14 @@ sudo dpkg -i 12_dependencies_mugshot/*.deb
 
 
 
-
-
-
-
+echo "👁️ For Eye of GNOME (eog) is a image viewing app and related dependencies, it will do this using:"
+sudo dpkg -i 13_dependencies_eog/*.deb
 
 
 
 
 
 echo "✅ All selected XFCE panel plugins installed successfully!"
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
