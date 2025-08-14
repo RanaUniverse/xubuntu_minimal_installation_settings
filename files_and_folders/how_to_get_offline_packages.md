@@ -107,7 +107,7 @@ sudo apt install pulseaudio-module-bluetooth
 ### 6. sudo apt install blueman 
 
 ```
-sudo apt-get install --print-uris --yes blueman  | grep ^\' | cut -d\' -f2 > 6_packages_bluetooth.txt
+sudo apt-get install --print-uris --yes blueman  | grep ^\' | cut -d\' -f2 > 6_packages_bluetooth-blueman.txt
 
 mkdir 6_dependencies_bluetooth-blueman
 

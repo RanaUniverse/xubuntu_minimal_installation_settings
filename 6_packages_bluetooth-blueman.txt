@@ -1,18 +1,15 @@
-http://archive.ubuntu.com/ubuntu/pool/main/b/bluez/bluez_5.72-0ubuntu5.3_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/main/f/fftw3/libfftw3-double3_3.3.10-1ubuntu3_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/libl/liblqr/liblqr-1-0_0.4.2-2.1build2_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/main/libr/libraw/libraw23t64_0.21.2-2.1ubuntu0.24.04.1_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/i/imagemagick/imagemagick-6-common_6.9.12.98%2bdfsg1-5.2build2_all.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/i/imagemagick/libmagickcore-6.q16-7t64_6.9.12.98%2bdfsg1-5.2build2_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/i/imagemagick/libmagickwand-6.q16-7t64_6.9.12.98%2bdfsg1-5.2build2_amd64.deb
-http://archive.ubuntu.com/ubuntu/pool/main/b/bluez/libbluetooth3_5.72-0ubuntu5.3_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/main/libi/libical3/libical3t64_3.0.17-1.1build3_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/main/b/bluez/bluez-obexd_5.72-0ubuntu5.3_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/main/p/pycairo/python3-cairo_1.25.1-2build2_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/main/p/pygobject/python3-gi-cairo_3.48.2-1_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/main/n/network-manager/gir1.2-nm-1.0_1.46.0-1ubuntu2.2_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/b/blueman/blueman_2.3.5-3build1_amd64.deb
-http://archive.ubuntu.com/ubuntu/pool/main/b/bluez/bluez-cups_5.72-0ubuntu5.3_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/libu/libunibreak/libunibreak5_5.1-2build1_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/liba/libass/libass9_0.17.1-2build1_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/liba/libavtp/libavtp0_0.2.0-1build1_amd64.deb
@@ -64,6 +61,7 @@ http://archive.ubuntu.com/ubuntu/pool/universe/o/openal-soft/libopenal-data_1.23
 http://archive.ubuntu.com/ubuntu/pool/universe/o/openh264/libopenh264-7_2.4.1%2bdfsg-1_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/libo/libopenmpt/libopenmpt0t64_0.7.3-1.1build3_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/o/openni2/libopenni2-0_2.2.0.33%2bdfsg-18_amd64.deb
+http://archive.ubuntu.com/ubuntu/pool/universe/q/qrencode/libqrencode4_4.1.1-1build2_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/s/sndio/libsndio7.0_1.9.0-0.3build3_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/s/soundtouch/libsoundtouch1_2.3.2%2bds1-1build1_amd64.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/s/spandsp/libspandsp2t64_0.0.6%2bdfsg-2.1build1_amd64.deb
