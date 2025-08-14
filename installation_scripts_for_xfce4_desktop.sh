@@ -144,9 +144,10 @@ sudo dpkg -i 13_dependencies_eog/*.deb
 
 
 
+echo "📁 Now cloning the configuration repository for custom settings which will apply my custom settings of my own useful."
+echo "🔗 https://github.com/RanaUniverse/xubuntu_config_settings"
 
 
 echo "✅ All selected XFCE panel plugins installed successfully!"
-
 
 
