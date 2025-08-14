@@ -21,7 +21,9 @@ Then i selected Any Country Server and got select the minimal iso file.
 
 Example for[ Australia Server ]([url](https://mirror.aarnet.edu.au/pub/xubuntu/releases/24.04/release/))the below is shows.
 
-<img width="1366" height="768" alt="xubuntu_24 04 3_download_from_australia_server" src="https://github.com/user-attachments/assets/08fe991f-5052-4464-bd8f-14f3b38f07f7" />
+
+![xubuntu_24.04.3_download_from_australia_server](./files_and_folders/xubuntu_24.04.3_download_from_australia_server.png)
+
 
 
 ---
