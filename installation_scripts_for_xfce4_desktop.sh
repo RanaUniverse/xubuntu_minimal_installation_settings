@@ -144,6 +144,13 @@ sudo dpkg -i 13_dependencies_eog/*.deb
 
 
 
+
+echo "Git Version Control System will be installed here."
+sudo dpkg -i 14_dependencies_git/*.deb
+
+
+
+
 echo "📁 Now cloning the configuration repository for custom settings which will apply my custom settings of my own useful."
 echo "🔗 https://github.com/RanaUniverse/xubuntu_config_settings"
 
