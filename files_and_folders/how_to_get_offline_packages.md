@@ -1,4 +1,4 @@
-## Here You will see how i get the official .deb files (packages & dependencies) from internet and saved those.
+## Here is the informations on how i get the official .deb files (packages & dependencies) from internet and saved those.
 
 
 
@@ -117,6 +117,12 @@ wget -i ../6_packages_bluetooth-blueman.txt
 ```
 
 
+### Delete 2 Packages (Bluetooth):
+I need to delete the 2 packages so that it will not conflict with the bluetooth packages.
+```
+sudo apt remove -y pulseaudio pulseaudio-module-bluetooth
+```
+
 
 
 ### 7. sudo apt install pipewire-audio 
@@ -138,7 +144,6 @@ The following packages will be REMOVED:
   pulseaudio pulseaudio-module-bluetooth
   
 sudo apt remove pulseaudio pulseaudio-module-bluetooth
-
 ```
 
 
@@ -205,10 +210,10 @@ echo "The Redshift has been installed Successfully."
 
 ### 10. Bucklespring Build From Source
 I keep the bucklespring zip file from the link below and the date is last commit date.
-```
+
 I need to download [zip of bucklespring](https://github.com/zevv/bucklespring)...
 The Steps are written in this repo, below is just for my offline installation.`
-
+```
 sudo apt-get install --print-uris --yes libopenal-dev libalure-dev libxtst-dev pkg-config | grep ^\' | cut -d\' -f2 > 10_packages_bucklespring_build_from_source.txt
 
 mkdir 10_dependencies_bucklespring_build_from_source
@@ -277,7 +282,17 @@ wget -i ../13_packages_eog.txt
 
 
 
+### sudo apt install git
+I am newly adding git ie, a version control system this help to track changes in my files if i wish. This is one of the important application i think to use. So i add this newly.
+```
+sudo apt-get install --print-uris --yes git | grep ^\' | cut -d\' -f2 > 14_packages_git.txt
 
+mkdir 14_dependencies_git
+
+cd 14_dependencies_git
+
+wget -i ../14_packages_git.txt
+```
 
 
 
