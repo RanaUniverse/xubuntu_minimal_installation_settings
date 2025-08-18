@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Increase volume by 10%
+pactl set-sink-volume @DEFAULT_SINK@ +10%
+
+# Get volume % and dB value
+read -r VOLUME_PERCENT VOLUME_DB <<< $(pactl get-sink-volume @DEFAULT_SINK@ | awk -F'/|dB' '/Volume:/ {gsub(/ /, "", $2); gsub(/ /, "", $3); print $2, $3}')
+
+# Send desktop notification
+notify-send "🔊 Volume Increased" "\n📈 $VOLUME_PERCENT\n🎚️ $VOLUME_DB dB"
