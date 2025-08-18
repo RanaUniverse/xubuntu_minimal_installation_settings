@@ -12,7 +12,7 @@ Currently, this repo is tested and works with:
 Xubuntu 24.04.3 LTS ISO
 ```
 
-> 🕒 **Note:** This was previously made for **Xubuntu 24.04.2 LTS**. On **13 August 2025**, I noticed **24.04.3 LTS** was released — so I decided to use the **new version** from now on. 🚀  
+> 🕒 **Note:** From **13 August 2025**, I noticed **24.04.3 LTS** was released — so I decided to use the **new version** from now on. 🚀  
 
 This is from where i downloded the Iso File for this. I keep this in my Pendrive as a Backup and also use this, iso file.
 Download Page LInk: https://xubuntu.org/download/
@@ -25,6 +25,10 @@ Example for[ Australia Server ]([url](https://mirror.aarnet.edu.au/pub/xubuntu/r
 ![xubuntu_24.04.3_download_from_australia_server](./files_and_folders/xubuntu_24.04.3_download_from_australia_server.png)
 
 
+## what to do after use this repo?
+"🔗 https://github.com/RanaUniverse/xubuntu_config_settings"
+
+I need to use this repo for my basic config settings.
 
 ---
 
