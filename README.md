@@ -25,10 +25,12 @@ Example for[ Australia Server ]([url](https://mirror.aarnet.edu.au/pub/xubuntu/r
 ![xubuntu_24.04.3_download_from_australia_server](./files_and_folders/xubuntu_24.04.3_download_from_australia_server.png)
 
 
-## what to do after use this repo?
-"🔗 https://github.com/RanaUniverse/xubuntu_config_settings"
+## How the config settings wroks here ?
 
-I need to use this repo for my basic config settings.
+I have now think to keep the config to this repo. 
+
+so that just this one repo can do all the things without any much headache. [So here is the informaiton about the config settings](./files_and_folders/README_for_config_settings.md).
+
 
 ---
 
