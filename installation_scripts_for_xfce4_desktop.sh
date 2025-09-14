@@ -150,6 +150,12 @@ sudo dpkg -i 14_dependencies_git/*.deb
 
 
 
+echo "Kazam which is the lightweight screen recording app will install here."
+sudo dpkg -i 15_packages_kazam/*.deb
+
+
+
+
 
 cd 00_xubuntu_config_settings/
 
