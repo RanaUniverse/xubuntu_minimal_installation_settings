@@ -282,7 +282,7 @@ wget -i ../13_packages_eog.txt
 
 
 
-### sudo apt install git
+### 14. sudo apt install git
 I am newly adding git ie, a version control system this help to track changes in my files if i wish. This is one of the important application i think to use. So i add this newly.
 ```
 sudo apt-get install --print-uris --yes git | grep ^\' | cut -d\' -f2 > 14_packages_git.txt
@@ -295,8 +295,17 @@ wget -i ../14_packages_git.txt
 ```
 
 
+### 15. sudo apt install kazam
+This Kazam is a Screen Recorder Application, this is lightweight and easy to use by the application only.
+```
+sudo apt-get install --print-uris --yes kazam | grep ^\' | cut -d\' -f2 > 15_packages_kazam.txt
 
+mkdir 15_packages_kazam
 
+cd 15_packages_kazam
+
+wget -i ../15_packages_kazam.txt
+```
 
 
 
