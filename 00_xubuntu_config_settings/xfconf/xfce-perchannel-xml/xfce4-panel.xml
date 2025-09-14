@@ -12,6 +12,8 @@
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
+        <value type="int" value="17"/>
+        <value type="int" value="20"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="16"/>
@@ -227,6 +229,10 @@
       </property>
     </property>
     <property name="plugin-16" type="string" value="screenshooter"/>
+    <property name="plugin-17" type="string" value="docklike"/>
+    <property name="plugin-20" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+    </property>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
