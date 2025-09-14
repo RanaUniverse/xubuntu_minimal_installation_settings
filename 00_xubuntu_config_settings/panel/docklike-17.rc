@@ -1,0 +1,9 @@
+[user]
+onlyDisplayVisible=true
+showPreviews=true
+showWindowCount=true
+inactiveIndicatorStyle=5
+indicatorColor=rgb(255,255,255)
+keyComboActive=true
+keyAloneActive=false
+noWindowsListIfSingle=false
