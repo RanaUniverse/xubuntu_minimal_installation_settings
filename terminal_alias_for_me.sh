@@ -10,12 +10,15 @@
 
 
 
-echo "✅ Some My own Terminal Alias is Creating Now. -Rana Universe 🍌🍌🍌>"
+echo "✅ Some My own Terminal Alias is Creating Now. -Rana Universe 🍌🍌🍌"
 
 
 (cat << 'EOF' && cat ~/.bashrc) > ~/.bashrc.tmp && mv ~/.bashrc.tmp ~/.bashrc
 
 # This is for my favourite terminal shortcut i use- Rana Universe 🍌🍌🍌
+
+alias r='redshift -P -O 3000 & nohup bash -c "cd ~/.apps_and_softwares/bucklespring* && ./buckle" & brave-browser & ~/.apps_and_softwares/Telegram/Telegram & code & exit'
+
 
 alias 3_apps='brave-browser & ~/.apps_and_softwares/Telegram/Telegram & code & exit'
 alias 3='brave-browser & ~/.apps_and_softwares/Telegram/Telegram & code & exit'

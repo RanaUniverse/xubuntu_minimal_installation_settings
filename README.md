@@ -1,6 +1,6 @@
 # 🖥️ Xubuntu Minimal Installation  
 
-This repository is for making the **Xubuntu Desktop OS** a **good, usable** system 💻 — equipped with most essential apps and configurations, installed **automatically** through an installation script.  
+This repository is for making the **Xubuntu Desktop OS** a **good, usable** system 💻 — equipped with most essential apps and configurations, installed **automatically** through this installation script.  
 
 ---
 
@@ -12,7 +12,6 @@ Currently, this repo is tested and works with:
 Xubuntu 24.04.3 LTS ISO
 ```
 
-> 🕒 **Note:** From **13 August 2025**, I noticed **24.04.3 LTS** was released — so I decided to use the **new version** from now on. 🚀  
 
 This is from where i downloded the Iso File for this. I keep this in my Pendrive as a Backup and also use this, iso file.
 Download Page LInk: https://xubuntu.org/download/
@@ -29,7 +28,7 @@ Example for[ Australia Server ]([url](https://mirror.aarnet.edu.au/pub/xubuntu/r
 
 I have now think to keep the config to this repo. 
 
-so that just this one repo can do all the things without any much headache. [So here is the informaiton about the config settings](./files_and_folders/README_for_config_settings.md).
+So that just this one repo can do all the things without any much headache. [So here is the informaiton about the config settings](./files_and_folders/README_for_config_settings.md).
 
 
 ---

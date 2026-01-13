@@ -91,6 +91,8 @@ sudo dpkg -i 10_dependencies_bucklespring_build_from_source/*.deb
 
 
 
+
+
 echo "Creating the directory if it doesn't already exist...🍌"
 
 mkdir -pv ~/.apps_and_softwares
@@ -156,6 +158,10 @@ sudo dpkg -i 15_packages_kazam/*.deb
 
 
 
+# echo "📁 Now cloning the configuration repository for custom settings which will apply my custom settings of my own useful."
+# echo "🔗 https://github.com/RanaUniverse/xubuntu_config_settings"
+
+
 
 cd 00_xubuntu_config_settings/
 
@@ -163,10 +169,6 @@ cd 00_xubuntu_config_settings/
 
 echo "Configuration settings got applied on this os now."
 
-
-
-# echo "📁 Now cloning the configuration repository for custom settings which will apply my custom settings of my own useful."
-# echo "🔗 https://github.com/RanaUniverse/xubuntu_config_settings"
 
 
 echo "✅ All selected XFCE panel plugins installed successfully!"
