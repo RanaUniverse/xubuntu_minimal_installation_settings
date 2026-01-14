@@ -82,6 +82,44 @@
       <property name="recent-items-max" type="int" value="25"/>
       <property name="confirm-session-command" type="bool" value="true"/>
       <property name="show-command-profile" type="bool" value="true"/>
+      <property name="search-actions" type="int" value="6">
+        <property name="action-0" type="empty">
+          <property name="name" type="string" value="Man Pages"/>
+          <property name="pattern" type="string" value="#"/>
+          <property name="command" type="string" value="exo-open --launch TerminalEmulator man %s"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-1" type="empty">
+          <property name="name" type="string" value="Search the Web"/>
+          <property name="pattern" type="string" value="?"/>
+          <property name="command" type="string" value="exo-open --launch WebBrowser https://www.google.com/search?q=%u"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-2" type="empty">
+          <property name="name" type="string" value="Search for Files"/>
+          <property name="pattern" type="string" value="-"/>
+          <property name="command" type="string" value="catfish --path=~ --start %s"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-3" type="empty">
+          <property name="name" type="string" value="Wikipedia"/>
+          <property name="pattern" type="string" value="!w"/>
+          <property name="command" type="string" value="exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-4" type="empty">
+          <property name="name" type="string" value="Run in Terminal"/>
+          <property name="pattern" type="string" value="!"/>
+          <property name="command" type="string" value="exo-open --launch TerminalEmulator %s"/>
+          <property name="regex" type="bool" value="false"/>
+        </property>
+        <property name="action-5" type="empty">
+          <property name="name" type="string" value="Open URI"/>
+          <property name="pattern" type="string" value="^(file|http|https):\/\/(.*)$"/>
+          <property name="command" type="string" value="exo-open \0"/>
+          <property name="regex" type="bool" value="true"/>
+        </property>
+      </property>
     </property>
     <property name="plugin-2" type="string" value="separator">
       <property name="style" type="uint" value="1"/>
